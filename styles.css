@@ -1,0 +1,60 @@
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: "Source Code Pro", monospace;
+}
+
+#BtnContainer{
+    text-align: center;
+    align-items: center;
+}
+.btns{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: #5e676e;
+    background-color: #121212;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color, color, 0.20s;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: "Source Code Pro", monospace;
+    border:0;
+    margin: 8px;
+
+}
+
+.btns:hover{
+    color: #383e42;
+}
+
+.btns:active{
+    background-color: #383e42;
+    color: black;
+}
+
+body{
+    background-color: #010203;
+    display: flex;
+    color: #5e676e;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/*
+--bg-color: #010203;
+    --main-color: #383e42;
+    --caret-color: #e25303;
+    --sub-color: #5e676e;
+    --sub-alt-color: #121212;
+    --text-color: #383e42;
+    --error-color: #e25303;
+    --error-extra-color: #73280c;
+    --colorful-error-color: #e25303;
+    --colorful-error-extra-color: #73280c;
+} which colors are for what in monkeytype. i want background, buttons, text etc.
+*/
